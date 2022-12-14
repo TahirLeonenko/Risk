@@ -1,0 +1,15 @@
+Index: src/game_entities/.gitignore
+===================================================================
+diff --git a/src/game_entities/.gitignore b/src/game_entities/.gitignore
+deleted file mode 100644
+--- a/src/game_entities/.gitignore	(revision 0ba5c4c00fdcb33de831cc4f7c724642561159c4)
++++ /dev/null	(revision 0ba5c4c00fdcb33de831cc4f7c724642561159c4)
+@@ -1,8 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+-# Editor-based HTTP Client requests
+-/httpRequests/
+-# Datasource local storage ignored files
+-/dataSources/
+-/dataSources.local.xml
