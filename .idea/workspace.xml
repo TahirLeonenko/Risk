@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf3ee3e9-9faf-4c90-9de7-979693751124" name="Changes" comment="Basic form of territory">
+    <list default="true" id="bf3ee3e9-9faf-4c90-9de7-979693751124" name="Changes" comment="Finished creating Board and Territory inner class (hopefully). Decided to change Territory from being an independent class to an inner class.">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game_entities/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/game_entities/Board.java" afterDir="false" />
@@ -86,6 +86,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670995041686</updated>
       <workItem from="1670995044642" duration="2487000" />
+      <workItem from="1671487107595" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="Creating the basic functionality for the Board">
       <created>1670996546537</created>
@@ -115,17 +116,36 @@
       <option name="project" value="LOCAL" />
       <updated>1670997217263</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished creating Board and Territory inner class (hopefully). Decided to change Territory from being an independent class to an inner class.">
+      <created>1671433676149</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671433676149</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creating the basic functionality for the Board" />
     <MESSAGE value="Forgot to make the new branch and checking out before committing..." />
     <MESSAGE value="Merge pull request #1 from TahirLeonenko/Basic-Packaging&#10;&#10;Creating the basic packages I'll be working from" />
     <MESSAGE value="Forgot to create new branch..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Forgot to create new branch..." />
+    <MESSAGE value="Finished creating Board and Territory inner class (hopefully). Decided to change Territory from being an independent class to an inner class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished creating Board and Territory inner class (hopefully). Decided to change Territory from being an independent class to an inner class." />
   </component>
 </project>
