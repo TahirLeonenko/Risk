@@ -24,6 +24,6 @@ public interface BoardGraph{
     public void setTroops(String territoryName, int troops);
     public String getOwner(String territoryName);
 
-    public int getTroops(String territoryName, int troops);
+    public int getTroops(String territoryName);
 
 }

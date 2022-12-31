@@ -51,7 +51,7 @@ public class Board implements BoardGraph{
     }
 
     @Override
-    public int getTroops(String territoryName, int troops){
+    public int getTroops(String territoryName){
         return territoryH.get(territoryName).getTroops();
     }
 
