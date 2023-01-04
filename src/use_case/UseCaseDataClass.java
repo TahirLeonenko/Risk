@@ -1,14 +1,13 @@
-package use_case.place_units;
+package use_case;
 
-import game_entities.Board;
 import game_entities.BoardGraph;
 import game_entities.PlayerInterface;
 
-public class PlaceUnitsDataClass {
+public class UseCaseDataClass {
     private final PlayerInterface player;
     private final BoardGraph board;
 
-    public PlaceUnitsDataClass(PlayerInterface player, BoardGraph board) {
+    public UseCaseDataClass(PlayerInterface player, BoardGraph board) {
         this.player = player;
         this.board = board;
     }

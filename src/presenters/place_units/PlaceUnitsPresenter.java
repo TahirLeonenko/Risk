@@ -1,12 +1,10 @@
 package presenters.place_units;
 
-import use_case.place_units.PlaceUnitsDataClass;
-
-import java.util.HashSet;
+import use_case.UseCaseDataClass;
 
 public class PlaceUnitsPresenter implements PlaceUnitsPresenterInterface{
     @Override
-    public void showOptions(PlaceUnitsDataClass pudc, int totalSoldiers) {
+    public void showOptions(UseCaseDataClass pudc, int totalSoldiers) {
 
     }
 
