@@ -1,6 +1,7 @@
 package use_case.place_units;
 
 import presenters.place_units.PlaceUnitsPresenterInterface;
+import use_case.UseCaseDataClass;
 
 import java.util.Enumeration;
 import java.util.HashSet;
@@ -15,14 +16,14 @@ public class PlaceUnits implements PlaceUnitsInterface{
     }
 
     @Override
-    public void getOptions(PlaceUnitsDataClass pudc) {
+    public void getOptions(UseCaseDataClass pudc) {
         HashSet<String> territories = pudc.getPlayer().getTerritories();
         int totalSoldiers = getTroopsPerTurn(territories);
         presenter.showOptions(pudc, totalSoldiers);
     }
 
     @Override
-    public void updateTerritorySoldiers(PlaceUnitsDataClass pudc, String territory, int soldiers) {
+    public void updateTerritorySoldiers(UseCaseDataClass pudc, String territory, int soldiers) {
         int troopsSoFar = pudc.getBoard().getTroops(territory);
         troopsSoFar += soldiers;
         pudc.getBoard().setTroops(territory, troopsSoFar);

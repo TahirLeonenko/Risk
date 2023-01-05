@@ -1,11 +1,10 @@
 package use_case.place_units;
 
-import game_entities.BoardGraph;
-import game_entities.PlayerInterface;
+import use_case.UseCaseDataClass;
 
 public interface PlaceUnitsInterface {
 
-    public void getOptions(PlaceUnitsDataClass pudc);
+    public void getOptions(UseCaseDataClass pudc);
 
-    public void updateTerritorySoldiers(PlaceUnitsDataClass pudc, String territory, int soldiers);
+    public void updateTerritorySoldiers(UseCaseDataClass pudc, String territory, int soldiers);
 }
